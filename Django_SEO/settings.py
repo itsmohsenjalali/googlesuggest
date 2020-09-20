@@ -25,7 +25,7 @@ SECRET_KEY = 'xk#(g^5im@h2n9!ztixf!$b!%)jzi7#u4k8%esi59sw8iask97'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://googlesuggests.herokuapp.com/', '127.0.0.1']
 
 if DEBUG:
     import localsetup
